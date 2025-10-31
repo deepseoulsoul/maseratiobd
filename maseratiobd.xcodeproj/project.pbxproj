@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3C9C34A02EB53CE100BC274B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9C34872EB53CE000BC274B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9C348E2EB53CE000BC274B;
+			remoteInfo = maseratiobd;
+		};
+		3C9C34AA2EB53CE100BC274B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9C34872EB53CE000BC274B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9C348E2EB53CE000BC274B;
+			remoteInfo = maseratiobd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9C348F2EB53CE000BC274B /* maseratiobd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maseratiobd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9C349F2EB53CE100BC274B /* maseratiobdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maseratiobdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9C34A92EB53CE100BC274B /* maseratiobdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maseratiobdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3C9C34912EB53CE000BC274B /* maseratiobd */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = maseratiobd;
+			sourceTree = "<group>";
+		};
+		3C9C34A22EB53CE100BC274B /* maseratiobdTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = maseratiobdTests;
+			sourceTree = "<group>";
+		};
+		3C9C34AC2EB53CE100BC274B /* maseratiobdUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = maseratiobdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9C348C2EB53CE000BC274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C349C2EB53CE100BC274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C34A62EB53CE100BC274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9C34862EB53CE000BC274B = {
+			isa = PBXGroup;
+			children = (
+				3C9C34912EB53CE000BC274B /* maseratiobd */,
+				3C9C34A22EB53CE100BC274B /* maseratiobdTests */,
+				3C9C34AC2EB53CE100BC274B /* maseratiobdUITests */,
+				3C9C34902EB53CE000BC274B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9C34902EB53CE000BC274B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C348F2EB53CE000BC274B /* maseratiobd.app */,
+				3C9C349F2EB53CE100BC274B /* maseratiobdTests.xctest */,
+				3C9C34A92EB53CE100BC274B /* maseratiobdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9C348E2EB53CE000BC274B /* maseratiobd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9C34B32EB53CE100BC274B /* Build configuration list for PBXNativeTarget "maseratiobd" */;
+			buildPhases = (
+				3C9C348B2EB53CE000BC274B /* Sources */,
+				3C9C348C2EB53CE000BC274B /* Frameworks */,
+				3C9C348D2EB53CE000BC274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3C9C34912EB53CE000BC274B /* maseratiobd */,
+			);
+			name = maseratiobd;
+			packageProductDependencies = (
+			);
+			productName = maseratiobd;
+			productReference = 3C9C348F2EB53CE000BC274B /* maseratiobd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9C349E2EB53CE100BC274B /* maseratiobdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9C34B62EB53CE100BC274B /* Build configuration list for PBXNativeTarget "maseratiobdTests" */;
+			buildPhases = (
+				3C9C349B2EB53CE100BC274B /* Sources */,
+				3C9C349C2EB53CE100BC274B /* Frameworks */,
+				3C9C349D2EB53CE100BC274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9C34A12EB53CE100BC274B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3C9C34A22EB53CE100BC274B /* maseratiobdTests */,
+			);
+			name = maseratiobdTests;
+			packageProductDependencies = (
+			);
+			productName = maseratiobdTests;
+			productReference = 3C9C349F2EB53CE100BC274B /* maseratiobdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C9C34A82EB53CE100BC274B /* maseratiobdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9C34B92EB53CE100BC274B /* Build configuration list for PBXNativeTarget "maseratiobdUITests" */;
+			buildPhases = (
+				3C9C34A52EB53CE100BC274B /* Sources */,
+				3C9C34A62EB53CE100BC274B /* Frameworks */,
+				3C9C34A72EB53CE100BC274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9C34AB2EB53CE100BC274B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3C9C34AC2EB53CE100BC274B /* maseratiobdUITests */,
+			);
+			name = maseratiobdUITests;
+			packageProductDependencies = (
+			);
+			productName = maseratiobdUITests;
+			productReference = 3C9C34A92EB53CE100BC274B /* maseratiobdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9C34872EB53CE000BC274B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3C9C348E2EB53CE000BC274B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3C9C349E2EB53CE100BC274B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3C9C348E2EB53CE000BC274B;
+					};
+					3C9C34A82EB53CE100BC274B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3C9C348E2EB53CE000BC274B;
+					};
+				};
+			};
+			buildConfigurationList = 3C9C348A2EB53CE000BC274B /* Build configuration list for PBXProject "maseratiobd" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9C34862EB53CE000BC274B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C9C34902EB53CE000BC274B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9C348E2EB53CE000BC274B /* maseratiobd */,
+				3C9C349E2EB53CE100BC274B /* maseratiobdTests */,
+				3C9C34A82EB53CE100BC274B /* maseratiobdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9C348D2EB53CE000BC274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C349D2EB53CE100BC274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C34A72EB53CE100BC274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9C348B2EB53CE000BC274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C349B2EB53CE100BC274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C34A52EB53CE100BC274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9C34A12EB53CE100BC274B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9C348E2EB53CE000BC274B /* maseratiobd */;
+			targetProxy = 3C9C34A02EB53CE100BC274B /* PBXContainerItemProxy */;
+		};
+		3C9C34AB2EB53CE100BC274B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9C348E2EB53CE000BC274B /* maseratiobd */;
+			targetProxy = 3C9C34AA2EB53CE100BC274B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C9C34B12EB53CE100BC274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9C34B22EB53CE100BC274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9C34B42EB53CE100BC274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"maseratiobd/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VM5VKXMK6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lowr.xyz.maseratiobd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9C34B52EB53CE100BC274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"maseratiobd/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VM5VKXMK6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lowr.xyz.maseratiobd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C9C34B72EB53CE100BC274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VM5VKXMK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lowr.xyz.maseratiobdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maseratiobd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maseratiobd";
+			};
+			name = Debug;
+		};
+		3C9C34B82EB53CE100BC274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VM5VKXMK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lowr.xyz.maseratiobdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maseratiobd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maseratiobd";
+			};
+			name = Release;
+		};
+		3C9C34BA2EB53CE100BC274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VM5VKXMK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lowr.xyz.maseratiobdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maseratiobd;
+			};
+			name = Debug;
+		};
+		3C9C34BB2EB53CE100BC274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VM5VKXMK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lowr.xyz.maseratiobdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maseratiobd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9C348A2EB53CE000BC274B /* Build configuration list for PBXProject "maseratiobd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9C34B12EB53CE100BC274B /* Debug */,
+				3C9C34B22EB53CE100BC274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9C34B32EB53CE100BC274B /* Build configuration list for PBXNativeTarget "maseratiobd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9C34B42EB53CE100BC274B /* Debug */,
+				3C9C34B52EB53CE100BC274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9C34B62EB53CE100BC274B /* Build configuration list for PBXNativeTarget "maseratiobdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9C34B72EB53CE100BC274B /* Debug */,
+				3C9C34B82EB53CE100BC274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9C34B92EB53CE100BC274B /* Build configuration list for PBXNativeTarget "maseratiobdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9C34BA2EB53CE100BC274B /* Debug */,
+				3C9C34BB2EB53CE100BC274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9C34872EB53CE000BC274B /* Project object */;
+}
