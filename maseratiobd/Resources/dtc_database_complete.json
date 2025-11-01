@@ -1,0 +1,2162 @@
+{
+  "P0000": {
+    "code": "P0000",
+    "full_code": "000090B420",
+    "device_id": 55851,
+    "description": "Body computer Marelli",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0001": {
+    "code": "P0001",
+    "full_code": "0001607017",
+    "device_id": 6801,
+    "description": "Injection Diesel Marelli 9DF 140 160 180HP Euro6d LIGHT ATx S&S SCR",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0002": {
+    "code": "P0002",
+    "full_code": "0002508917",
+    "device_id": 8880,
+    "description": "Electric Power Steering Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0003": {
+    "code": "P0003",
+    "full_code": "0003708215",
+    "device_id": 10407,
+    "description": "Instrument Panel Marelli",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0005": {
+    "code": "P0005",
+    "full_code": "0005701715",
+    "device_id": 8933,
+    "description": "Radio Receiver unit Continental",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0006": {
+    "code": "P0006",
+    "full_code": "000650E214",
+    "device_id": 9269,
+    "description": "Anti-Locking Brakes Module TRW",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0008": {
+    "code": "P0008",
+    "full_code": "000870D014",
+    "device_id": 10119,
+    "description": "Door Management Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P000A": {
+    "code": "P000A",
+    "full_code": "000A70DB14",
+    "device_id": 8833,
+    "description": "Heat, Ventillation and A/C module DENSO",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P000B": {
+    "code": "P000B",
+    "full_code": "000B50DD14",
+    "device_id": 6628,
+    "description": "Automatic gearbox Marelli DCTM CFC8TDW",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P000D": {
+    "code": "P000D",
+    "full_code": "000D501314",
+    "device_id": 7683,
+    "description": "Electric parking brake Mando",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0010": {
+    "code": "P0010",
+    "full_code": "0010509214",
+    "device_id": 8905,
+    "description": "Adaptive Cruise Control Unit Bosch",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0011": {
+    "code": "P0011",
+    "full_code": "0011503918",
+    "device_id": 10295,
+    "description": "Petrol 2.0L Marelli IAW 10JA",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0015": {
+    "code": "P0015",
+    "full_code": "001550AD14",
+    "device_id": 8469,
+    "description": "Electronic Steering Lock",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0016": {
+    "code": "P0016",
+    "full_code": "001650B414",
+    "device_id": 10437,
+    "description": "Electronic Shifter Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0018": {
+    "code": "P0018",
+    "full_code": "001850C014",
+    "device_id": 10447,
+    "description": "Park Assistant Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P001A": {
+    "code": "P001A",
+    "full_code": "001A708415",
+    "device_id": 9780,
+    "description": "Occupant Restraint Control Module (ORC)",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P001D": {
+    "code": "P001D",
+    "full_code": "001D50C714",
+    "device_id": 895,
+    "description": "Discharge lamps Automotive Lighting",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P001E": {
+    "code": "P001E",
+    "full_code": "001E507214",
+    "device_id": 9868,
+    "description": "Haptical Lane Feedback Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0022": {
+    "code": "P0022",
+    "full_code": "0022701214",
+    "device_id": 8785,
+    "description": "Heater Denso",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0023": {
+    "code": "P0023",
+    "full_code": "0023708B17",
+    "device_id": 55732,
+    "description": "Telematics box module 2 Marelli",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0024": {
+    "code": "P0024",
+    "full_code": "0024705515",
+    "device_id": 8541,
+    "description": "UCONNECT Entertainment Telematic Module CONTINENTAL",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0029": {
+    "code": "P0029",
+    "full_code": "0029507E19",
+    "device_id": 48587,
+    "description": "Dosing Control Unit SCRM Continental",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P002E": {
+    "code": "P002E",
+    "full_code": "002E70A414",
+    "device_id": 8860,
+    "description": "Audio Amplifier Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0030": {
+    "code": "P0030",
+    "full_code": "0030709720",
+    "device_id": 10465,
+    "description": "Comfort Seat Wheel Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0032": {
+    "code": "P0032",
+    "full_code": "0032707D19",
+    "device_id": 55930,
+    "description": "Integrated Center Stack Estra",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0033": {
+    "code": "P0033",
+    "full_code": "0033706B20",
+    "device_id": 8670,
+    "description": "Left Blind Spot Sensor",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0034": {
+    "code": "P0034",
+    "full_code": "0034706C20",
+    "device_id": 8671,
+    "description": "Right Blind Spot Sensor",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0039": {
+    "code": "P0039",
+    "full_code": "0039707E15",
+    "device_id": 8905,
+    "description": "Adaptive Cruise Control Unit Bosch",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P003D": {
+    "code": "P003D",
+    "full_code": "003D704F17",
+    "device_id": 29305,
+    "description": "Comfort Rearseat Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P003F": {
+    "code": "P003F",
+    "full_code": "003F50BC14",
+    "device_id": 8470,
+    "description": "Trailer Tow Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0040": {
+    "code": "P0040",
+    "full_code": "0040502E19",
+    "device_id": 55953,
+    "description": "Electric engine SANMARCO",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0041": {
+    "code": "P0041",
+    "full_code": "004150BE14",
+    "device_id": 10349,
+    "description": "Radio Frequency HUB (RFH) Continental",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0043": {
+    "code": "P0043",
+    "full_code": "0043509114",
+    "device_id": 10307,
+    "description": "Drive Train Control Module (DTCM)",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0045": {
+    "code": "P0045",
+    "full_code": "0045708815",
+    "device_id": 20768,
+    "description": "Power LIftGate Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P004B": {
+    "code": "P004B",
+    "full_code": "004B706517",
+    "device_id": 32430,
+    "description": "Drive Style Control Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0052": {
+    "code": "P0052",
+    "full_code": "0052707D15",
+    "device_id": 10361,
+    "description": "Chassis Domain Control Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0066": {
+    "code": "P0066",
+    "full_code": "006670A214",
+    "device_id": 9624,
+    "description": "Entertainment multimedia control module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0067": {
+    "code": "P0067",
+    "full_code": "0067509A14",
+    "device_id": 9670,
+    "description": "Torque Vectoring Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P006C": {
+    "code": "P006C",
+    "full_code": "006C50C614",
+    "device_id": 9665,
+    "description": "Active Aerodynamics Module Right",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P006D": {
+    "code": "P006D",
+    "full_code": "006D50C514",
+    "device_id": 9664,
+    "description": "Active Aerodynamics Module Left",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P006E": {
+    "code": "P006E",
+    "full_code": "006E50C814",
+    "device_id": 9592,
+    "description": "Active Noise Cancellation Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0075": {
+    "code": "P0075",
+    "full_code": "0075702418",
+    "device_id": 47334,
+    "description": "Trailer Tow Bar Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0083": {
+    "code": "P0083",
+    "full_code": "008370C020",
+    "device_id": 55885,
+    "description": "Display Screen Module (DCSD)",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P00A0": {
+    "code": "P00A0",
+    "full_code": "00A0505E20",
+    "device_id": 55575,
+    "description": "Parking Assist Module 2 (PAM2) Bosch",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0107": {
+    "code": "P0107",
+    "full_code": "0107890EF4",
+    "device_id": 8578,
+    "description": "Injection Marelli  Marelli IAW 9GF CF6/EOBD",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0207": {
+    "code": "P0207",
+    "full_code": "0207028AXX",
+    "device_id": 4790,
+    "description": "Collision Mitigation Module",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0384": {
+    "code": "P0384",
+    "full_code": "0384506F15",
+    "device_id": 55783,
+    "description": "Roof Control Unit (RCU) Magna",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0407": {
+    "code": "P0407",
+    "full_code": "0407860D73",
+    "device_id": 8889,
+    "description": "Electronic Steering Lock TVI/TRW",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P063B": {
+    "code": "P063B",
+    "full_code": "063B000000",
+    "device_id": 31,
+    "description": "Air Bag Autoliv",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0707": {
+    "code": "P0707",
+    "full_code": "07078A85F2",
+    "device_id": 755,
+    "description": "Rear doors/Hood WEBASTO",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0807": {
+    "code": "P0807",
+    "full_code": "08079B8A89",
+    "device_id": 888,
+    "description": "Injection Bosch Motronic MeD17.3.1 No EOBD (eng. 1.8)",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0B07": {
+    "code": "P0B07",
+    "full_code": "0B0785016D",
+    "device_id": 610,
+    "description": "Climate control Delphi",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0D07": {
+    "code": "P0D07",
+    "full_code": "0D07FE08EF",
+    "device_id": 867,
+    "description": "Injection Magneti Marelli IAW 5SF4 Natural Power (eng. 3.0) Euro 5 EOBD LD",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P0E07": {
+    "code": "P0E07",
+    "full_code": "0E07010DF8",
+    "device_id": 8228,
+    "description": "Body computer",
+    "system": "Powertrain",
+    "type": "SAE Standard"
+  },
+  "P1122": {
+    "code": "P1122",
+    "full_code": "1122334455",
+    "device_id": 8923,
+    "description": "Track Mapping Module (TMM)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1400": {
+    "code": "P1400",
+    "full_code": "1400978777",
+    "device_id": 709,
+    "description": "Connect Marelli PSA (CAN)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1401": {
+    "code": "P1401",
+    "full_code": "1401396677",
+    "device_id": 860,
+    "description": "Connect Marelli PSA RT5 (CAN)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1457": {
+    "code": "P1457",
+    "full_code": "1457538880",
+    "device_id": 558,
+    "description": "Body Computer Sagem (BSI)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1484": {
+    "code": "P1484",
+    "full_code": "1484583080",
+    "device_id": 560,
+    "description": "Instrument panel Marelli PSA",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1486": {
+    "code": "P1486",
+    "full_code": "1486648080",
+    "device_id": 582,
+    "description": "Speed/Odometer Marelli (BTO)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1487": {
+    "code": "P1487",
+    "full_code": "1487995080",
+    "device_id": 195,
+    "description": "Heater WEBASTO (PSA)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1488": {
+    "code": "P1488",
+    "full_code": "1488977077",
+    "device_id": 588,
+    "description": "Front sunroof Inalfa",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1489": {
+    "code": "P1489",
+    "full_code": "1489678077",
+    "device_id": 599,
+    "description": "Command Connect DAV PSA",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1490": {
+    "code": "P1490",
+    "full_code": "1490185077",
+    "device_id": 557,
+    "description": "Multifunction screen Sagem",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1491": {
+    "code": "P1491",
+    "full_code": "1491359080",
+    "device_id": 604,
+    "description": "Air Bag Temic",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1492": {
+    "code": "P1492",
+    "full_code": "1492921080",
+    "device_id": 607,
+    "description": "ABS Bosch 5.7 ESP PSA",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1493": {
+    "code": "P1493",
+    "full_code": "1493706077",
+    "device_id": 579,
+    "description": "Connect Marelli PSA",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1494": {
+    "code": "P1494",
+    "full_code": "1494921080",
+    "device_id": 560,
+    "description": "Instrument panel Marelli PSA",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1495": {
+    "code": "P1495",
+    "full_code": "1495869077",
+    "device_id": 557,
+    "description": "Multifunction screen Sagem",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1496": {
+    "code": "P1496",
+    "full_code": "1496758080",
+    "device_id": 604,
+    "description": "Air Bag Temic",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1497": {
+    "code": "P1497",
+    "full_code": "1497566080",
+    "device_id": 721,
+    "description": "Speed/Odometer Marelli (BTO CAN)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1498": {
+    "code": "P1498",
+    "full_code": "1498916080",
+    "device_id": 717,
+    "description": "Front sunroof Inalfa (CAN)",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P1499": {
+    "code": "P1499",
+    "full_code": "1499801080",
+    "device_id": 604,
+    "description": "Air Bag Temic",
+    "system": "Powertrain",
+    "type": "Manufacturer Specific"
+  },
+  "P2386": {
+    "code": "P2386",
+    "full_code": "23869713A8",
+    "device_id": 61,
+    "description": "Injection Diesel Bosch MSA 11 (eng. 2.4 Ch.El.)",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2586": {
+    "code": "P2586",
+    "full_code": "2586B689BF",
+    "device_id": 631,
+    "description": "ABS Bosch 8",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2686": {
+    "code": "P2686",
+    "full_code": "26869E02A1",
+    "device_id": 252,
+    "description": "Air Bag SIEMENS MY 99 (2F-2P-2L-I-C)",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2986": {
+    "code": "P2986",
+    "full_code": "2986868610",
+    "device_id": 819,
+    "description": "Passenger's seat Lear 3",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2A80": {
+    "code": "P2A80",
+    "full_code": "2A80850D91",
+    "device_id": 8850,
+    "description": "Electronic Gear Shift Module ZF",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2A86": {
+    "code": "P2A86",
+    "full_code": "2A868994A2",
+    "device_id": 63,
+    "description": "Injection Bosch Motronic M3.7.1 (eng. 3.0 12/24V Ch. El.)",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2C80": {
+    "code": "P2C80",
+    "full_code": "2C80021598",
+    "device_id": 34,
+    "description": "Air Bag Siemens (3 charges)",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2C86": {
+    "code": "P2C86",
+    "full_code": "2C8602161F",
+    "device_id": 35,
+    "description": "Injection Diesel Lucas DPNC",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2F80": {
+    "code": "P2F80",
+    "full_code": "2F80020107",
+    "device_id": 593,
+    "description": "Adaptive Cruise Control Bosch",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P2F86": {
+    "code": "P2F86",
+    "full_code": "2F86830D1A",
+    "device_id": 8867,
+    "description": "Right blind spot sensor Autoliv",
+    "system": "Powertrain",
+    "type": "SAE Extended"
+  },
+  "P3030": {
+    "code": "P3030",
+    "full_code": "3030000000",
+    "device_id": 7,
+    "description": "Electrostop Bosch / Lucas / MED",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P313F": {
+    "code": "P313F",
+    "full_code": "313F290ABF",
+    "device_id": 8880,
+    "description": "Electric Power Steering Module TRW",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3160": {
+    "code": "P3160",
+    "full_code": "3160000000",
+    "device_id": 88,
+    "description": "Climate control Behr",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3180": {
+    "code": "P3180",
+    "full_code": "31808F972C",
+    "device_id": 16,
+    "description": "Injection Magneti Marelli IAW 18F",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3183": {
+    "code": "P3183",
+    "full_code": "3183A80D3E",
+    "device_id": 4763,
+    "description": "Electric steering TRW",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3186": {
+    "code": "P3186",
+    "full_code": "31860194A1",
+    "device_id": 108,
+    "description": "Injection Bosch Motronic M1.5.4",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3238": {
+    "code": "P3238",
+    "full_code": "3238000000",
+    "device_id": 7,
+    "description": "Electrostop Bosch / Lucas / MED",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3280": {
+    "code": "P3280",
+    "full_code": "328002020B",
+    "device_id": 547,
+    "description": "Parking brake Lucas",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3283": {
+    "code": "P3283",
+    "full_code": "3283F80D8F",
+    "device_id": 8929,
+    "description": "Instrument panel Marelli",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3286": {
+    "code": "P3286",
+    "full_code": "3286861629",
+    "device_id": 57,
+    "description": "Injection Bosch Motronic M2.10.4 (eng. 2.0 20V T)",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3392": {
+    "code": "P3392",
+    "full_code": "33920-79J3",
+    "device_id": 742,
+    "description": "Injection Benzina Denso SZK (eng. 1.6)",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3397": {
+    "code": "P3397",
+    "full_code": "3397062J10",
+    "device_id": 775,
+    "description": "Electronic key SZK",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3436": {
+    "code": "P3436",
+    "full_code": "3436000000",
+    "device_id": 7,
+    "description": "Electrostop Bosch / Lucas / MED",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3480": {
+    "code": "P3480",
+    "full_code": "3480A80D3E",
+    "device_id": 6679,
+    "description": "Injection Magneti Marelli 9GF 1.2cc FIRE 8v 69 HP bz EURO6 NOEOBD MT",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3483": {
+    "code": "P3483",
+    "full_code": "3483B30D4C",
+    "device_id": 8420,
+    "description": "Heat, Ventillation and A/C module DENSO",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3486": {
+    "code": "P3486",
+    "full_code": "3486850DA1",
+    "device_id": 6704,
+    "description": "Radio Frequency Hub Module Continental",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3677": {
+    "code": "P3677",
+    "full_code": "36770-79J4",
+    "device_id": 749,
+    "description": "Body Computer Calsonic-Kansei SZK",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3783": {
+    "code": "P3783",
+    "full_code": "3783AB13CD",
+    "device_id": 204,
+    "description": "Injection Magneti Marelli IAW P8 (non eco)",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3872": {
+    "code": "P3872",
+    "full_code": "38720-79J5",
+    "device_id": 863,
+    "description": "Electric steering Mitsubishi SZK 2",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3883": {
+    "code": "P3883",
+    "full_code": "3883A191C2",
+    "device_id": 89,
+    "description": "Injection Magneti Marelli IAW P8 ECO",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3888": {
+    "code": "P3888",
+    "full_code": "38885-79J0",
+    "device_id": 736,
+    "description": "Central Diamond Active 4WD SZK",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3891": {
+    "code": "P3891",
+    "full_code": "38910-79J2",
+    "device_id": 757,
+    "description": "Air Bag Siemens SZK",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3951": {
+    "code": "P3951",
+    "full_code": "39510-79J5",
+    "device_id": 739,
+    "description": "Climate control Denso SZK",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3B07": {
+    "code": "P3B07",
+    "full_code": "3B070198B0",
+    "device_id": 182,
+    "description": "Battery Monitor Procond",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3B80": {
+    "code": "P3B80",
+    "full_code": "3B80971037",
+    "device_id": 74,
+    "description": "Injection Bosch Motronic ML4.1 (eng. V6 TB)",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3B83": {
+    "code": "P3B83",
+    "full_code": "3B839191B5",
+    "device_id": 89,
+    "description": "Injection Magneti Marelli IAW P8 ECO",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3B86": {
+    "code": "P3B86",
+    "full_code": "3B86000000",
+    "device_id": 52,
+    "description": "Injection Diesel Lucas EPIC XUD11",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3D07": {
+    "code": "P3D07",
+    "full_code": "3D07019832",
+    "device_id": 228,
+    "description": "Battery charger Siemens",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3D83": {
+    "code": "P3D83",
+    "full_code": "3D838F9438",
+    "device_id": 68,
+    "description": "Suspension Magneti Marelli MCA 200",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3E07": {
+    "code": "P3E07",
+    "full_code": "3E07860DAD",
+    "device_id": 8228,
+    "description": "Body computer Dodge Vision",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3E80": {
+    "code": "P3E80",
+    "full_code": "3E801307AD",
+    "device_id": 183,
+    "description": "Climate control Borletti MCC100",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3E83": {
+    "code": "P3E83",
+    "full_code": "3E83980D3B",
+    "device_id": 8871,
+    "description": "Parking Assistant Module Bosch",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3F0E": {
+    "code": "P3F0E",
+    "full_code": "3F0E000000",
+    "device_id": 29,
+    "description": "Injection Solex 08.PXX",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3F52": {
+    "code": "P3F52",
+    "full_code": "3F52000000",
+    "device_id": 29,
+    "description": "Injection Solex 08.PXX",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3F53": {
+    "code": "P3F53",
+    "full_code": "3F53000000",
+    "device_id": 29,
+    "description": "Injection Solex 08.PXX",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "P3FDF": {
+    "code": "P3FDF",
+    "full_code": "3FDF000000",
+    "device_id": 111,
+    "description": "Electronic key Solex 08.P11",
+    "system": "Powertrain",
+    "type": "Reserved"
+  },
+  "C0007": {
+    "code": "C0007",
+    "full_code": "4007830120",
+    "device_id": 201,
+    "description": "Automatic gearbox FUJI SG-CVT",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0080": {
+    "code": "C0080",
+    "full_code": "4080AD91D3",
+    "device_id": 60,
+    "description": "Injection Bosch Monojetronic SPI (enhanced)",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0083": {
+    "code": "C0083",
+    "full_code": "4083FD0BXX",
+    "device_id": 5124,
+    "description": "Body Computer Marelli",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0580": {
+    "code": "C0580",
+    "full_code": "4580AD13DA",
+    "device_id": 46,
+    "description": "Air Bag TRW2 with pretensioners",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0583": {
+    "code": "C0583",
+    "full_code": "4583838929",
+    "device_id": 921,
+    "description": "Injection Valeo TU3 PSA 1.4 MPI Gasoline E5 ESP",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0585": {
+    "code": "C0585",
+    "full_code": "45858394B6",
+    "device_id": 1,
+    "description": "Injection Hitachi MPI",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0631": {
+    "code": "C0631",
+    "full_code": "4631432C20",
+    "device_id": 771,
+    "description": "Injection Diesel Bosch EDC16C39 CF4/EOBD (mot. 2.3/3.0)",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0680": {
+    "code": "C0680",
+    "full_code": "4680A49251",
+    "device_id": 44,
+    "description": "EGR Marelli MCR 1xx A",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0685": {
+    "code": "C0685",
+    "full_code": "46858C923E",
+    "device_id": 32,
+    "description": "Injection Bosch Monomotronic MA1.7",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0985": {
+    "code": "C0985",
+    "full_code": "498583983E",
+    "device_id": 155,
+    "description": "Climate control Borletti MCC80X",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0A85": {
+    "code": "C0A85",
+    "full_code": "4A85AE9264",
+    "device_id": 49,
+    "description": "Anti theft ICIT VAS93",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0C85": {
+    "code": "C0C85",
+    "full_code": "4C8526925E",
+    "device_id": 23,
+    "description": "Injection Magneti Marelli IAW 06F Evoluta",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C0F85": {
+    "code": "C0F85",
+    "full_code": "4F859113CD",
+    "device_id": 65,
+    "description": "Injection Bosch Motronic M3.7.1 (eng. 3.0 24V 4x4)",
+    "system": "Chassis",
+    "type": "SAE Standard"
+  },
+  "C1072": {
+    "code": "C1072",
+    "full_code": "50726F6475",
+    "device_id": 771,
+    "description": "Injection Diesel Bosch EDC16C39 CF4/EOBD (mot. 2.3/3.0)",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1102": {
+    "code": "C1102",
+    "full_code": "5102859845",
+    "device_id": 5,
+    "description": "Alarm ICIT/TRW VAS95",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1185": {
+    "code": "C1185",
+    "full_code": "5185920D4A",
+    "device_id": 8312,
+    "description": "ABS/ESP TRW",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1202": {
+    "code": "C1202",
+    "full_code": "520201802A",
+    "device_id": 584,
+    "description": "Central Brake Assistant",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1280": {
+    "code": "C1280",
+    "full_code": "5280940B46",
+    "device_id": 756,
+    "description": "Electric steering TRW 3",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1285": {
+    "code": "C1285",
+    "full_code": "528583802F",
+    "device_id": 562,
+    "description": "Automatic gearbox ZF 4HP20 (KW2)",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1485": {
+    "code": "C1485",
+    "full_code": "5485A79267",
+    "device_id": 17,
+    "description": "Injection GM MPI con EGR",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C15AB": {
+    "code": "C15AB",
+    "full_code": "55AB020000",
+    "device_id": 75,
+    "description": "Injection Bosch Motronic MP3.2 (9600 Baud)",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1610": {
+    "code": "C1610",
+    "full_code": "56100-79JF",
+    "device_id": 773,
+    "description": "ABS Bosch ESP SZK",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C1611": {
+    "code": "C1611",
+    "full_code": "56110-79J1",
+    "device_id": 732,
+    "description": "ABS Bosch SZK",
+    "system": "Chassis",
+    "type": "Manufacturer Specific"
+  },
+  "C2003": {
+    "code": "C2003",
+    "full_code": "6003000000",
+    "device_id": 88,
+    "description": "Climate control Behr",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2807": {
+    "code": "C2807",
+    "full_code": "6807FE0D4F",
+    "device_id": 6801,
+    "description": "Injection Diesel Marelli 8DF3 130HP Waste Gate E4 noDPF MT",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2907": {
+    "code": "C2907",
+    "full_code": "6907438910",
+    "device_id": 702,
+    "description": "Injection Diesel Marelli 6F3 EOBD (eng. 1.3 JTD)",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2B02": {
+    "code": "C2B02",
+    "full_code": "6B022A107C",
+    "device_id": 13,
+    "description": "ABS Bosch 2SI",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2B07": {
+    "code": "C2B07",
+    "full_code": "6B07020DD6",
+    "device_id": 8905,
+    "description": "Adaptive Cruise Control Unit Bosch",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2D02": {
+    "code": "C2D02",
+    "full_code": "6D02290875",
+    "device_id": 176,
+    "description": "ABS Bendix",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2D07": {
+    "code": "C2D07",
+    "full_code": "6D07850D5B",
+    "device_id": 8578,
+    "description": "Injection Marelli  Marelli IAW 9GF CF6/EOBD",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C2E07": {
+    "code": "C2E07",
+    "full_code": "6E07830BXX",
+    "device_id": 5018,
+    "description": "Electronic key TRW (Teg Reader)",
+    "system": "Chassis",
+    "type": "SAE Extended"
+  },
+  "C3002": {
+    "code": "C3002",
+    "full_code": "700292926B",
+    "device_id": 78,
+    "description": "Injection Magneti Marelli IAW G7.XX Alcool",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3302": {
+    "code": "C3302",
+    "full_code": "730283105D",
+    "device_id": 85,
+    "description": "Injection Bosch Motronic M2.7",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3307": {
+    "code": "C3307",
+    "full_code": "7307020758",
+    "device_id": 745,
+    "description": "Heater Denso",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3507": {
+    "code": "C3507",
+    "full_code": "750785085E",
+    "device_id": 780,
+    "description": "Injection Diesel Visteon CF4/EOBD (eng. 2.2)",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3607": {
+    "code": "C3607",
+    "full_code": "76070285D9",
+    "device_id": 763,
+    "description": "Injection Siemens VDO CF4/EOBD (eng. 1.8)",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3907": {
+    "code": "C3907",
+    "full_code": "79070208DF",
+    "device_id": 854,
+    "description": "Suspension Magneti Marelli",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3A02": {
+    "code": "C3A02",
+    "full_code": "7A02C20B23",
+    "device_id": 7581,
+    "description": "Injection Magneti Marelli IAW 8GMW CF6/EOBD",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3A07": {
+    "code": "C3A07",
+    "full_code": "7A07FE0D61",
+    "device_id": 9272,
+    "description": "Injection Marelli 8GMK 1.4 MultiAir2 160 170hp StopStart",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3A86": {
+    "code": "C3A86",
+    "full_code": "7A868F0EF2",
+    "device_id": 5304,
+    "description": "Injection Magneti Marelli IAW 8GSW CNG (eng. 0.9)",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3C07": {
+    "code": "C3C07",
+    "full_code": "7C07940D79",
+    "device_id": 6851,
+    "description": "Injection Bosch Motronic ME17.3.0 CF6/EOBD LPG (eng. 1.4)",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3C86": {
+    "code": "C3C86",
+    "full_code": "7C86FD8CE0",
+    "device_id": 866,
+    "description": "Injection Bosch Motronic Me7.9.10 PDA (eng.1.4)",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "C3F86": {
+    "code": "C3F86",
+    "full_code": "7F86839875",
+    "device_id": 168,
+    "description": "Electronic key Delphi Code 2",
+    "system": "Chassis",
+    "type": "Reserved"
+  },
+  "B0007": {
+    "code": "B0007",
+    "full_code": "80078319F8",
+    "device_id": 505,
+    "description": "Automatic clutch LUK",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0080": {
+    "code": "B0080",
+    "full_code": "808080800B",
+    "device_id": 918,
+    "description": "Body Computer Johnson EV CF5 (BSI CAN)",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0200": {
+    "code": "B0200",
+    "full_code": "8200302005",
+    "device_id": 248,
+    "description": "Automatic gearbox Siemens AL4 TA2000 V PSA",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0307": {
+    "code": "B0307",
+    "full_code": "830783987A",
+    "device_id": 187,
+    "description": "Central RF lock VAS97 /3",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0481": {
+    "code": "B0481",
+    "full_code": "8481000000",
+    "device_id": 50,
+    "description": "Injection Diesel Bosch AS3",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0607": {
+    "code": "B0607",
+    "full_code": "86078F8576",
+    "device_id": 759,
+    "description": "Door control Bitron",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B063B": {
+    "code": "B063B",
+    "full_code": "863BD50000",
+    "device_id": 113,
+    "description": "Electronic key Siemens PSA",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0680": {
+    "code": "B0680",
+    "full_code": "868002805D",
+    "device_id": 184,
+    "description": "Climate control Marelli/Hella",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0907": {
+    "code": "B0907",
+    "full_code": "8907898573",
+    "device_id": 761,
+    "description": "Passenger's door G.E. PROCOND 4",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0A07": {
+    "code": "B0A07",
+    "full_code": "8A079104FB",
+    "device_id": 615,
+    "description": "Injection Gas Metatron 6A0",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B0C07": {
+    "code": "B0C07",
+    "full_code": "8C07029802",
+    "device_id": 173,
+    "description": "Electric steering NSK (eng. thermal)",
+    "system": "Body",
+    "type": "SAE Standard"
+  },
+  "B1207": {
+    "code": "B1207",
+    "full_code": "9207018CFB",
+    "device_id": 6748,
+    "description": "Steering Column Control Module Kostal",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1551": {
+    "code": "B1551",
+    "full_code": "95510-79J2",
+    "device_id": 872,
+    "description": "Heater ASTI SZK",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1627": {
+    "code": "B1627",
+    "full_code": "9627948080",
+    "device_id": 554,
+    "description": "CD Changer Clarion",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1629": {
+    "code": "B1629",
+    "full_code": "9629825480",
+    "device_id": 598,
+    "description": "Parking control Valeo PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1632": {
+    "code": "B1632",
+    "full_code": "9632729080",
+    "device_id": 572,
+    "description": "Alarm Texton 2",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1634": {
+    "code": "B1634",
+    "full_code": "9634583580",
+    "device_id": 609,
+    "description": "Automatic gearbox ZF 4HP20 PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1636": {
+    "code": "B1636",
+    "full_code": "9636597577",
+    "device_id": 561,
+    "description": "Autoradio Clarion/Philips",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1637": {
+    "code": "B1637",
+    "full_code": "9637826080",
+    "device_id": 206,
+    "description": "Injection Magneti Marelli MM4.8P PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1638": {
+    "code": "B1638",
+    "full_code": "9638858280",
+    "device_id": 608,
+    "description": "Injection Bosch Motronic ME7.4.6 PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1639": {
+    "code": "B1639",
+    "full_code": "9639944680",
+    "device_id": 221,
+    "description": "Automatic gearbox Siemens AL4 TA2000 PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1640": {
+    "code": "B1640",
+    "full_code": "9640938680",
+    "device_id": 537,
+    "description": "Injection Diesel Bosch EDC15 PSA (eng. 2.0 8v)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1641": {
+    "code": "B1641",
+    "full_code": "9641849280",
+    "device_id": 537,
+    "description": "Injection Diesel Bosch EDC15 PSA (eng. 2.0 8v)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1642": {
+    "code": "B1642",
+    "full_code": "9642606280",
+    "device_id": 206,
+    "description": "Injection Magneti Marelli MM4.8P PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1643": {
+    "code": "B1643",
+    "full_code": "9643926680",
+    "device_id": 609,
+    "description": "Automatic gearbox ZF 4HP20 PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1644": {
+    "code": "B1644",
+    "full_code": "9644955480",
+    "device_id": 543,
+    "description": "Injection Magneti Marelli MM4.8P2 PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1645": {
+    "code": "B1645",
+    "full_code": "9645892577",
+    "device_id": 561,
+    "description": "Autoradio Clarion/Philips",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1646": {
+    "code": "B1646",
+    "full_code": "9646907580",
+    "device_id": 558,
+    "description": "Body Computer Sagem (BSI)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1647": {
+    "code": "B1647",
+    "full_code": "9647754477",
+    "device_id": 597,
+    "description": "Column switch Eaton (COM2000)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1648": {
+    "code": "B1648",
+    "full_code": "9648801277",
+    "device_id": 561,
+    "description": "Autoradio Clarion/Philips",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1649": {
+    "code": "B1649",
+    "full_code": "9649988180",
+    "device_id": 725,
+    "description": "ABS Bosch 8 ESP PSA (CAN)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1650": {
+    "code": "B1650",
+    "full_code": "9650931380",
+    "device_id": 613,
+    "description": "Injection Diesel Bosch EDC15 PSA (eng. 16v)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1651": {
+    "code": "B1651",
+    "full_code": "9651938380",
+    "device_id": 558,
+    "description": "Body Computer Sagem (BSI)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1652": {
+    "code": "B1652",
+    "full_code": "9652874980",
+    "device_id": 700,
+    "description": "Alarm Delphi",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1653": {
+    "code": "B1653",
+    "full_code": "9653958980",
+    "device_id": 806,
+    "description": "Injection Diesel Bosch EDC16C34 CF4/EOBD (eng. 1.6)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1654": {
+    "code": "B1654",
+    "full_code": "9654610077",
+    "device_id": 561,
+    "description": "Autoradio Clarion/Philips",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1655": {
+    "code": "B1655",
+    "full_code": "9655534080",
+    "device_id": 772,
+    "description": "Injection Diesel Siemens SID803 CF4/EOBD (eng. 16v)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1656": {
+    "code": "B1656",
+    "full_code": "9656944180",
+    "device_id": 731,
+    "description": "Parking control Valeo PSA (CAN)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1657": {
+    "code": "B1657",
+    "full_code": "9657956980",
+    "device_id": 711,
+    "description": "Pneumatic pressure control Siemens",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1658": {
+    "code": "B1658",
+    "full_code": "9658452180",
+    "device_id": 804,
+    "description": "Speakerphone Siemens PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1659": {
+    "code": "B1659",
+    "full_code": "9659838680",
+    "device_id": 248,
+    "description": "Automatic gearbox Siemens AL4 TA2000 V PSA",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1660": {
+    "code": "B1660",
+    "full_code": "9660662677",
+    "device_id": 706,
+    "description": "CD Changer Clarion (CAN)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1661": {
+    "code": "B1661",
+    "full_code": "9661887180",
+    "device_id": 831,
+    "description": "ABS Bosch 8.1 ESP PSA (CAN)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1662": {
+    "code": "B1662",
+    "full_code": "9662489680",
+    "device_id": 829,
+    "description": "Injection Diesel Bosch EDC16CP39 CF4/EOBD (eng. 2.2)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1663": {
+    "code": "B1663",
+    "full_code": "9663723077",
+    "device_id": 706,
+    "description": "CD Changer Clarion (CAN)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1664": {
+    "code": "B1664",
+    "full_code": "9664874280",
+    "device_id": 876,
+    "description": "Central USB Box Siemens",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1665": {
+    "code": "B1665",
+    "full_code": "9665960277",
+    "device_id": 706,
+    "description": "CD Changer Clarion (CAN)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1666": {
+    "code": "B1666",
+    "full_code": "9666912580",
+    "device_id": 913,
+    "description": "Injection Diesel Delphi DCM3.5 CF5 (eng. 2.0)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1689": {
+    "code": "B1689",
+    "full_code": "9689207080",
+    "device_id": 195,
+    "description": "Heater WEBASTO (PSA)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1945": {
+    "code": "B1945",
+    "full_code": "9945806380",
+    "device_id": 700,
+    "description": "Alarm Delphi",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1956": {
+    "code": "B1956",
+    "full_code": "9956421277",
+    "device_id": 805,
+    "description": "Column switch Delphi (COM2005)",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B1999": {
+    "code": "B1999",
+    "full_code": "9999999999",
+    "device_id": 7255,
+    "description": "Automatic gearbox Marelli",
+    "system": "Body",
+    "type": "Manufacturer Specific"
+  },
+  "B2186": {
+    "code": "B2186",
+    "full_code": "A1868C139B",
+    "device_id": 44,
+    "description": "EGR Marelli MCR 1xx A",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2286": {
+    "code": "B2286",
+    "full_code": "A286A21332",
+    "device_id": 80,
+    "description": "Injection Bosch Motronic M2.10.3 (eng. 1.7 16V)",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2486": {
+    "code": "B2486",
+    "full_code": "A486011919",
+    "device_id": 223,
+    "description": "Seats with memory LEAR",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2786": {
+    "code": "B2786",
+    "full_code": "A78691192C",
+    "device_id": 220,
+    "description": "Air Bag Allied MY 97 (2F-2P-2L-2T-I)",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2886": {
+    "code": "B2886",
+    "full_code": "A8868916A2",
+    "device_id": 59,
+    "description": "Injection Bosch Motronic M2.10.3 (eng. 2.0 e 2.4 20V)",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2B02": {
+    "code": "B2B02",
+    "full_code": "AB02000000",
+    "device_id": 75,
+    "description": "Injection Bosch Motronic MP3.2 (9600 Baud)",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2B80": {
+    "code": "B2B80",
+    "full_code": "AB80020D8F",
+    "device_id": 8875,
+    "description": "Drive Train Control Module GKN",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2B86": {
+    "code": "B2B86",
+    "full_code": "AB86AE0BXX",
+    "device_id": 5857,
+    "description": "Airbag MY03",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2D86": {
+    "code": "B2D86",
+    "full_code": "AD86021620",
+    "device_id": 3,
+    "description": "Injection Bosch Monomotronic MA1.7.3",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2E80": {
+    "code": "B2E80",
+    "full_code": "AE808C8594",
+    "device_id": 224,
+    "description": "Air Bag Autoliv MY 99 (2F-2P-2L-I)",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B2E86": {
+    "code": "B2E86",
+    "full_code": "AE86839723",
+    "device_id": 4,
+    "description": "ABS Teves MK20/MK70",
+    "system": "Body",
+    "type": "SAE Extended"
+  },
+  "B3080": {
+    "code": "B3080",
+    "full_code": "B080AB91C1",
+    "device_id": 15,
+    "description": "Injection Magneti Marelli IAW 06F",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3086": {
+    "code": "B3086",
+    "full_code": "B0868A972C",
+    "device_id": 2,
+    "description": "Injection Magneti Marelli IAW 1AF/1AB",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3383": {
+    "code": "B3383",
+    "full_code": "B383019723",
+    "device_id": 130,
+    "description": "EGR Marelli 304B/304E",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3386": {
+    "code": "B3386",
+    "full_code": "B386BA0ED6",
+    "device_id": 8530,
+    "description": "Injection Diesel Bosch EDC17C69 1.6jtd 120HP MT S&S E5+ Light",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3583": {
+    "code": "B3583",
+    "full_code": "B5839D0D37",
+    "device_id": 8931,
+    "description": "UCONNECT Entertainment Telematic Module HARMAN",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3680": {
+    "code": "B3680",
+    "full_code": "B680B9084C",
+    "device_id": 93,
+    "description": "Injection Magneti Marelli MIW 0L2",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3683": {
+    "code": "B3683",
+    "full_code": "B683079126",
+    "device_id": 20,
+    "description": "Injection Magneti Marelli IAW 08.68",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3907": {
+    "code": "B3907",
+    "full_code": "B9070197AD",
+    "device_id": 170,
+    "description": "Traction control Siemens V.M.U.",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3A07": {
+    "code": "B3A07",
+    "full_code": "BA078902A1",
+    "device_id": 523,
+    "description": "Injection Hitachi EOBD",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3A83": {
+    "code": "B3A83",
+    "full_code": "BA8398913B",
+    "device_id": 95,
+    "description": "Injection Magneti Marelli IAW P8 TB ECO",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3C07": {
+    "code": "B3C07",
+    "full_code": "BC07CE0D73",
+    "device_id": 6340,
+    "description": "Automatic gearbox Marelli DCTM CFC8DTW",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3F07": {
+    "code": "B3F07",
+    "full_code": "BF070219B6",
+    "device_id": 193,
+    "description": "Navigator/Tool Siemens ICS 2",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "B3F83": {
+    "code": "B3F83",
+    "full_code": "BF83910EB6",
+    "device_id": 7389,
+    "description": "Body computer Marelli",
+    "system": "Body",
+    "type": "Reserved"
+  },
+  "U0107": {
+    "code": "U0107",
+    "full_code": "C1078F0DB9",
+    "device_id": 895,
+    "description": "Discharge lamps Automotive Lighting",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0207": {
+    "code": "U0207",
+    "full_code": "C2078301A2",
+    "device_id": 192,
+    "description": "Injection Diesel Lucas Epic DCU3F",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0283": {
+    "code": "U0283",
+    "full_code": "C2831592C1",
+    "device_id": 24,
+    "description": "Automatic gearbox FUJI MX 665",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0485": {
+    "code": "U0485",
+    "full_code": "C485910DBC",
+    "device_id": 6150,
+    "description": "Automatic gearbox AISIN AF 21-250",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0A85": {
+    "code": "U0A85",
+    "full_code": "CA850D8AXX",
+    "device_id": 6150,
+    "description": "Automatic gearbox AISIN AF 21-250",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0B02": {
+    "code": "U0B02",
+    "full_code": "CB02010BAE",
+    "device_id": 823,
+    "description": "Automatic gearbox Marelli SELESPEED CFC319",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0B85": {
+    "code": "U0B85",
+    "full_code": "CB859B13D3",
+    "device_id": 76,
+    "description": "Injection Magneti Marelli IAW P8-PQP T/C",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0D85": {
+    "code": "U0D85",
+    "full_code": "CD85A48C57",
+    "device_id": 914,
+    "description": "Injection Magneti Marelli IAW 7GF",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0E83": {
+    "code": "U0E83",
+    "full_code": "CE83830DB6",
+    "device_id": 8863,
+    "description": "Haptical Lane Feedback Module TRW",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U0E85": {
+    "code": "U0E85",
+    "full_code": "CE85A71362",
+    "device_id": 72,
+    "description": "Injection Magneti Marelli IAW P8-PQP",
+    "system": "Network",
+    "type": "SAE Standard"
+  },
+  "U1002": {
+    "code": "U1002",
+    "full_code": "D00292914A",
+    "device_id": 72,
+    "description": "Injection Magneti Marelli IAW P8-PQP",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U1085": {
+    "code": "U1085",
+    "full_code": "D085AE136B",
+    "device_id": 23,
+    "description": "Injection Magneti Marelli IAW 06F Evoluta",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U1385": {
+    "code": "U1385",
+    "full_code": "D385AB92EA",
+    "device_id": 67,
+    "description": "Injection Bosch Motronic M1.7 (eng. V6 3.0)",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U1585": {
+    "code": "U1585",
+    "full_code": "D585AD926E",
+    "device_id": 85,
+    "description": "Injection Bosch Motronic M2.7",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U1685": {
+    "code": "U1685",
+    "full_code": "D685860D43",
+    "device_id": 8557,
+    "description": "Comfort Seat Wheel Module",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U1985": {
+    "code": "U1985",
+    "full_code": "D985089500",
+    "device_id": 36,
+    "description": "Alarm Texton",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U1E07": {
+    "code": "U1E07",
+    "full_code": "DE07020D79",
+    "device_id": 10120,
+    "description": "Door Management Module",
+    "system": "Network",
+    "type": "Manufacturer Specific"
+  },
+  "U2507": {
+    "code": "U2507",
+    "full_code": "E5078C08D5",
+    "device_id": 758,
+    "description": "Injection Delphi MT27E (eng. 1.8 8v)",
+    "system": "Network",
+    "type": "SAE Extended"
+  },
+  "U2607": {
+    "code": "U2607",
+    "full_code": "E607850D54",
+    "device_id": 8876,
+    "description": "Trailer tow module Bitron",
+    "system": "Network",
+    "type": "SAE Extended"
+  },
+  "U2A07": {
+    "code": "U2A07",
+    "full_code": "EA07DF0D32",
+    "device_id": 6281,
+    "description": "Air Bag TRW",
+    "system": "Network",
+    "type": "SAE Extended"
+  },
+  "U2C07": {
+    "code": "U2C07",
+    "full_code": "EC07B60E8C",
+    "device_id": 13883,
+    "description": "ABS Bosch ESC",
+    "system": "Network",
+    "type": "SAE Extended"
+  },
+  "U3202": {
+    "code": "U3202",
+    "full_code": "F2029B9276",
+    "device_id": 73,
+    "description": "Injection Bosch Motronic M1.7 (eng. V6 2.5)",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3402": {
+    "code": "U3402",
+    "full_code": "F4028C0D64",
+    "device_id": 5635,
+    "description": "Pneumatic pressure control SCHRADER",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3407": {
+    "code": "U3407",
+    "full_code": "F4070104D5",
+    "device_id": 766,
+    "description": "Tachograph Actia",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3707": {
+    "code": "U3707",
+    "full_code": "F7070185D9",
+    "device_id": 783,
+    "description": "Air suspension Continental",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U378C": {
+    "code": "U378C",
+    "full_code": "F78C7C86DA",
+    "device_id": 5126,
+    "description": "Injection Bosch Motronic ME 17.3.0 CF6",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3807": {
+    "code": "U3807",
+    "full_code": "F807860D67",
+    "device_id": 8860,
+    "description": "Audio Amplifier Module ASK",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3B86": {
+    "code": "U3B86",
+    "full_code": "FB868919F8",
+    "device_id": 145,
+    "description": "Injection Bosch Motronic ME2.1 (eng. V6 2.5/3.0)",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3D07": {
+    "code": "U3D07",
+    "full_code": "FD07028964",
+    "device_id": 893,
+    "description": "Driver's seat Lear",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3D86": {
+    "code": "U3D86",
+    "full_code": "FD86FE8AE0",
+    "device_id": 847,
+    "description": "Injection Diesel Bosch EDC16C39 CF5/EOBD CAN (eng. 1.6/2.0)",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3E02": {
+    "code": "U3E02",
+    "full_code": "FE02010B61",
+    "device_id": 832,
+    "description": "Injection Diesel Bosch EDC16C39 CF5/EOBD (mot. 1.6/1.9/2.0)",
+    "system": "Network",
+    "type": "Reserved"
+  },
+  "U3E86": {
+    "code": "U3E86",
+    "full_code": "FE86859876",
+    "device_id": 132,
+    "description": "Injection Bosch Motronic M1.5.5 (eng. TS '98)",
+    "system": "Network",
+    "type": "Reserved"
+  }
+}
