@@ -43,13 +43,14 @@ Architecture: MVVM
 
 ### Services
 - **CoreBluetooth**: OBD 어댑터 BLE 통신
-- **OpenAI GPT-4o-mini**: AI 분석 엔진
+- **Maserati OBD Server**: AI 분석 및 DTC 데이터베이스 API
 - **UserDefaults**: 로컬 데이터 저장
 
-### Database
-- **DTC Database**: 270개 SAE 표준 코드
-- **Manufacturer Specific**: 77개 제조사 코드
-- **Faults Database**: 11,160개 AlfaOBD 고장 코드
+### Backend (Server)
+- **Base URL**: https://maserati.io.kr/obd/
+- **Database**: PostgreSQL (11,430 DTC codes)
+- **Cache**: Redis (30-day TTL, 80% cost reduction)
+- **API**: RESTful (인증, DTC 조회, AI 분석, 사용량 통계)
 
 ## 📦 프로젝트 구조
 
@@ -151,6 +152,172 @@ xcodebuild -scheme maseratiobd -destination 'platform=iOS Simulator,name=iPhone 
 2. 필터 적용 (전체/심각/문제/정상)
 3. 트렌드 분석 버튼 클릭
 
+## 🌐 서버 API 연동
+
+### API 서버
+- **Base URL**: `https://maserati.io.kr/obd/`
+- **문서**: API 엔드포인트 및 사용 예제
+
+### 주요 API 엔드포인트
+
+#### 1. 인증
+```swift
+// 회원가입
+POST /v1/auth/register
+{
+  "device_id": "unique-device-id",
+  "platform": "ios",
+  "app_version": "1.0.0"
+}
+
+// 로그인
+POST /v1/auth/login
+{
+  "device_id": "unique-device-id"
+}
+```
+
+#### 2. DTC 코드 조회
+```swift
+// 코드 총 개수
+GET /v1/dtc-codes/count
+// Response: { "count": 11430 }
+
+// 특정 코드 조회
+GET /v1/dtc-codes/P0300
+// Response: { "code": "P0300", "description": "...", "severity": "Critical" }
+
+// 검색
+GET /v1/dtc-codes/search?q=misfire&limit=10
+
+// 통계
+GET /v1/dtc-codes/stats
+```
+
+#### 3. AI 분석 (인증 필요)
+```swift
+POST /v1/dtc/analyze
+Headers: { "Authorization": "Bearer <access_token>" }
+{
+  "dtc_code": "P0300",
+  "stage": 1,  // 1: 15자, 2: 150자, 3: 500자 (마크다운)
+  "language": "ko"
+}
+
+// Note: dtc_description은 선택 사항 (서버가 자동으로 DB에서 조회)
+```
+
+#### 4. 사용량 통계
+```swift
+// 월간 사용량
+GET /v1/usage/stats?period=month
+Headers: { "Authorization": "Bearer <access_token>" }
+
+// 구독 정보
+GET /v1/usage/subscription
+Headers: { "Authorization": "Bearer <access_token>" }
+```
+
+### 구독 티어
+
+| 티어 | 월 비용 | 스캔 제한 | Stage 3 | PDF | 다중 차량 |
+|------|---------|-----------|---------|-----|-----------|
+| Free | $0 | 3회/월 | ❌ | ❌ | ❌ |
+| Pro | $4.99 | 무제한 | ✅ | ✅ | ❌ |
+| Business | $19.99 | 무제한 | ✅ | ✅ | ✅ (최대 5대) |
+
+### iOS 앱 통합 예제
+
+```swift
+// APIService.swift
+class APIService {
+    let baseURL = "https://maserati.io.kr/obd"
+
+    // 1. 회원가입
+    func register(deviceId: String) async throws -> AuthResponse {
+        let url = URL(string: "\(baseURL)/v1/auth/register")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        let body = [
+            "device_id": deviceId,
+            "platform": "ios",
+            "app_version": Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
+        ]
+        request.httpBody = try JSONEncoder().encode(body)
+
+        let (data, _) = try await URLSession.shared.data(for: request)
+        return try JSONDecoder().decode(AuthResponse.self, from: data)
+    }
+
+    // 2. AI 분석
+    func analyzeDTC(code: String, stage: Int, token: String) async throws -> AnalysisResponse {
+        let url = URL(string: "\(baseURL)/v1/dtc/analyze")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+
+        let body = [
+            "dtc_code": code,
+            "stage": stage,
+            "language": "ko"
+        ] as [String : Any]
+        request.httpBody = try JSONSerialization.data(withJSONObject: body)
+
+        let (data, _) = try await URLSession.shared.data(for: request)
+        return try JSONDecoder().decode(AnalysisResponse.self, from: data)
+    }
+
+    // 3. DTC 코드 조회
+    func getDTCCode(_ code: String) async throws -> DTCCodeResponse {
+        let url = URL(string: "\(baseURL)/v1/dtc-codes/\(code)")!
+        let (data, _) = try await URLSession.shared.data(from: url)
+        return try JSONDecoder().decode(DTCCodeResponse.self, from: data)
+    }
+}
+
+// Response Models
+struct AuthResponse: Codable {
+    let user_id: String
+    let access_token: String
+    let refresh_token: String
+    let tier: String
+}
+
+struct AnalysisResponse: Codable {
+    let dtc_code: String
+    let stage: Int
+    let analysis: String
+    let cached: Bool
+    let tokens_used: Int
+    let cost: Double
+}
+
+struct DTCCodeResponse: Codable {
+    let code: String
+    let description: String
+    let severity: String
+    let category: String
+}
+```
+
+### 테스트 결과
+
+✅ **모든 API 테스트 완료** (2025-11-01)
+
+| 항목 | 상태 | 비고 |
+|------|------|------|
+| Health Check | ✅ | 서버 정상 작동 |
+| DTC 코드 조회 | ✅ | 11,430개 코드 |
+| 검색 기능 | ✅ | 다국어 지원 |
+| 회원가입/로그인 | ✅ | JWT 인증 |
+| AI Stage 1 | ✅ | 15자 요약 |
+| AI Stage 2 | ✅ | 150자 상세 |
+| AI Stage 3 | ✅ | 500자 마크다운 |
+| 사용량 통계 | ✅ | 실시간 추적 |
+
 ## 🧪 목업 데이터
 
 개발 및 테스트를 위한 샘플 데이터:
@@ -224,11 +391,14 @@ Low: 기타
 - [x] 히스토리
 - [x] 트렌드 분석
 
-### Phase 2: 서버 연동 (진행 중)
-- [ ] 백엔드 API 구축
-- [ ] 캐싱 시스템
-- [ ] 사용자 인증
-- [ ] 구독 모델
+### Phase 2: 서버 연동 ✅ (완료)
+- [x] 백엔드 API 구축 (https://maserati.io.kr/obd/)
+- [x] DTC 데이터베이스 마이그레이션 (11,430 codes)
+- [x] Redis 캐싱 시스템 (80% 비용 절감)
+- [x] 사용자 인증 (JWT)
+- [x] 구독 모델 (Free/Pro/Business)
+- [x] AI 분석 API (Stage 1-3)
+- [ ] iOS 앱 통합 (진행 중)
 
 ### Phase 3: 고급 기능
 - [ ] PDF 리포트
