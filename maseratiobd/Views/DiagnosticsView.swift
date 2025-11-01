@@ -105,9 +105,18 @@ struct DiagnosticsView: View {
                 }
 
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        showConnectionView = true
-                    }) {
+                    Menu {
+                        Button("서버 API 테스트") {
+                            testServerAPI()
+                        }
+                        Button("인증 테스트") {
+                            testAuthentication()
+                        }
+                        Divider()
+                        Button("OBD 연결") {
+                            showConnectionView = true
+                        }
+                    } label: {
                         Image(systemName: obdService.connectionState.isConnected ? "checkmark.circle.fill" : "link")
                             .foregroundColor(obdService.connectionState.isConnected ? .accentGreen : .secondaryText)
                     }
@@ -422,6 +431,87 @@ struct DiagnosticsView: View {
                 await MainActor.run {
                     let errorGenerator = UINotificationFeedbackGenerator()
                     errorGenerator.notificationOccurred(.error)
+                }
+            }
+        }
+    }
+
+    // MARK: - Server API Tests
+
+    private func testServerAPI() {
+        Task {
+            do {
+                print("🧪 [API Test] Starting server API tests...")
+
+                // 1. Test DTC count
+                let count = try await APIService.shared.getDTCCodesCount()
+                print("✅ [API Test] DTC Count: \(count)")
+
+                // 2. Test DTC code lookup
+                let dtcCode = try await APIService.shared.getDTCCode("P0300")
+                print("✅ [API Test] DTC P0300: \(dtcCode.description)")
+
+                // 3. Test search
+                let searchResults = try await APIService.shared.searchDTCCodes(
+                    query: "misfire",
+                    limit: 3
+                )
+                print("✅ [API Test] Search results: \(searchResults.count) codes found")
+
+                await MainActor.run {
+                    let generator = UINotificationFeedbackGenerator()
+                    generator.notificationOccurred(.success)
+                }
+
+                print("🎉 [API Test] All server API tests passed!")
+            } catch {
+                print("❌ [API Test] Error: \(error.localizedDescription)")
+
+                await MainActor.run {
+                    let generator = UINotificationFeedbackGenerator()
+                    generator.notificationOccurred(.error)
+                }
+            }
+        }
+    }
+
+    private func testAuthentication() {
+        Task {
+            do {
+                print("🔐 [Auth Test] Starting authentication test...")
+
+                // Try to sign in (register or login)
+                try await AuthenticationManager.shared.signIn()
+
+                print("✅ [Auth Test] Authenticated successfully")
+                print("   User ID: \(AuthenticationManager.shared.currentUser?.userId ?? "N/A")")
+                print("   Tier: \(AuthenticationManager.shared.subscription?.tier ?? "N/A")")
+                print("   Scans: \(AuthenticationManager.shared.subscription?.scansUsed ?? 0) / \(AuthenticationManager.shared.subscription?.scansLimit ?? 0)")
+
+                // Test AI analysis
+                print("🤖 [Auth Test] Testing AI analysis...")
+                let analysis = try await APIService.shared.analyzeDTC(
+                    code: "P0300",
+                    description: "Random/Multiple Cylinder Misfire Detected",
+                    stage: 1
+                )
+                print("✅ [Auth Test] AI Analysis: \(analysis.analysis)")
+                print("   Cached: \(analysis.cached)")
+                print("   Cost: $\(String(format: "%.5f", analysis.cost))")
+                print("   Scans remaining: \(analysis.usage?.scansRemaining ?? 0)")
+
+                await MainActor.run {
+                    let generator = UINotificationFeedbackGenerator()
+                    generator.notificationOccurred(.success)
+                }
+
+                print("🎉 [Auth Test] All authentication tests passed!")
+            } catch {
+                print("❌ [Auth Test] Error: \(error.localizedDescription)")
+
+                await MainActor.run {
+                    let generator = UINotificationFeedbackGenerator()
+                    generator.notificationOccurred(.error)
                 }
             }
         }
